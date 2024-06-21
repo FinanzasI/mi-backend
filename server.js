@@ -9,6 +9,12 @@ app.use(cors());
 
 let data = require('./db.json');
 
+// Manejo de errores genéricos
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+
 // Rutas para usuarios
 app.get('/users', (req, res) => {
   res.json(data.users);
