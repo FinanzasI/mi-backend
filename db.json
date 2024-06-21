@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "name": "John Doe",
+        "email": "johndoe1@gmail.com",
+        "password": "123456",
+        "repassword": "123456",
+        "id": 1
+      }
+    ],
+    "excluded_users": [
+    ],
+    "data": [
+      {
+        "moneda": "Soles",
+        "precioVivienda": 2500,
+        "cuotaInicial": 187.5,
+        "tasaEfectiva": 8,
+        "numeroCuotas": 18,
+        "periodoGracia": 2,
+        "periodoGraciaParcial": 2,
+        "periodoGraciaTotal": 0,
+        "cuota": 152.92,
+        "userId": 3,
+        "nombreRegistro": "a",
+        "id": 1
+      }
+    ]
+}
